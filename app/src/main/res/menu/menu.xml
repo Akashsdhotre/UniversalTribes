@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_cart"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Cart"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/menu_contact"
+        android:icon="@android:drawable/sym_contact_card"
+        android:title="Contact Us" />
+
+    <item android:id="@+id/menu_about"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="About Us"/>
+</menu>

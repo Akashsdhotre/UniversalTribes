@@ -1,0 +1,59 @@
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    card_view:cardElevation="5dp"
+    android:id="@+id/subcard"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    card_view:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:id="@+id/subcategoryClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/subcategoryimg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/subcategoryname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="8dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Art namewerrwe"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="8dp"
+                android:gravity="right"
+                android:text="HI"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

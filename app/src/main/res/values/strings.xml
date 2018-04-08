@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UniversalTribes</string>
+    <string name="title_activity_enquiry">EnquiryActivity</string>
+    <string-array name="paymethods">
+        <item>Full Payment</item>
+        <item>Half Payment</item>
+    </string-array>
+</resources>
